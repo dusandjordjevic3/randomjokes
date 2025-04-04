@@ -18,8 +18,6 @@ async function getJoke(){
     }
 }
 
-
-
 btn.addEventListener("click", function(event){
     getJoke();
-})
+});
